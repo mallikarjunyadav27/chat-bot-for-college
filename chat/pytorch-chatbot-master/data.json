@@ -1,0 +1,133 @@
+{
+  "intents": [
+    {
+	"tag": "Greeting",
+	"patterns":[
+		"Hi",
+		"Hey",
+		"How are you",
+		"Is anyone there",
+		"Hello",
+		"Good day"
+	],
+	"responses":[
+	"Hey:-)",
+	"Hello, thanks for visiting",
+	"Hi there, What can I do for you",
+	"hi there, how can I help?"
+	]
+    },
+    {
+      "tag": "Placements",
+      "patterns": [
+        "Is there any Placements in your College?",
+        "Do we have any Placements in your College?",
+        "Is There Placement In College?"],
+      "responses": ["yes,we have good Placements in our College"]
+    },
+    {
+      "tag": "Admission",
+      "patterns": [
+        "How To Apply For The Admission For Bsc, Msc, Puc, Professional, Evening College, Certification Course ?",
+	"How We Will Get The Admission For Bsc, Msc, Puc, Professional, Evening College, Certification Course ?",
+	"How To Get Admission For Bsc, Msc, Puc, Professional, Evening College, Certification Course ?"],
+      "responses": ["First you need apply through our college website,and then you will get a date for entrance exam,after that you have interview,if you select in that round,you will get seat in our college"]
+    },
+    {
+      "tag": "Internship",
+      "patterns": [
+        "How many month we need to do internship",
+        "What is the internship time-period we have to do?",
+        "Is it possible to complete our internship before the time scheduled?"],
+      "responses": ["Internship will be completed in the given period of time"]
+     },
+     {
+      "tag": "Canteen",
+      "patterns": [
+        "What Items are available in the Canteen?",
+        "Do we get non-veg food in canteen?",
+        "What are the Items that we can get it from the Canteen?"],
+      "responses": ["we can get all fast-foods,samosa,chai,chochalates,biscuits,icecreams and many more"]
+     },
+     {
+      "tag": "Outreach program",
+      "patterns": [
+        "What are the Rules in Outreach Program?",
+        "What if we Break the rules,What type of Punishments we get?",
+        "What happens when we Break the Rules?"],
+      "responses": ["You should not do consumption of Alcohol,Smoking and should maintain disciplane in the program and if you break the rules,we will punish you for a period of time"]
+     },
+     {
+      "tag": "Timings",
+      "patterns": [
+        "What are the timings allowed to students to use the lab?",
+        "What are the timings maintain by the college office?",
+        "What is the regular timing of the college?"],
+      "responses": ["The Regular timings of college is from morning 8.00 am to 4.00 pm"]
+     },
+     {
+      "tag": "Contact Information",
+      "patterns": [
+        "Whom Should we contact for Admission?",
+        "Can you send phone numbers of office?",
+        "Who should we contact to apply for a Scholarship? "], 
+      "responses": ["first you need visit  our college website,then you will get all information regarding addmission,fees,phone no etc."]
+     },
+     {
+      "tag": "Hostel facility",
+      "patterns": [
+        "Do we have any Hostel inside the Campus?",
+        "do you all has boys hostel in your college?",
+        "do you all has girls hostel inside the college?"],
+      "responses": ["Yes,We have both boys and girls hostels located inside the college"]
+     },
+     {
+      "tag": "Fees",
+      "patterns": [
+		 "What Will Be The Fees For Parking?",
+	         "How Much Is The Fees For Parking?",	
+		 "What Is The Fees For Parking?"],
+      "responses": ["for two wheeler 2000 for one year and for four wheeler vechicle 4000 for one year"]
+    },
+    {
+      "tag": "Sports activity encouragement",
+      "patterns": [
+		   "Do You All Encourage For Sports?",
+	           "Will You Encourage For Sports?",
+	           "Do We Have Encouragement For Sports?"],
+      "responses": ["yes,we will encourage the students for sports who all intrested"]
+    },
+    {
+      "tag": "Campus",
+      "patterns": [
+		  "What Are The Things Do You All Have In The Campus?",	
+                  "What Do You All Have In The Campus?",	
+                  "What All Are There In The Campus?" ],
+      "responses": ["we have many things in our campus,you can go through the college website"]
+    },
+    {
+      "tag": "About courses",
+      "patterns": [
+		"How much Cut-off for MSC Big Data in entrance",
+		"What is the cut-off for in the entrance exam?",
+		"What is the Cut off for Big Data Analytics Course?"], 
+
+      "responses": ["minimum 60% we needed to join in our college"]
+    },
+    {
+      "tag": "Library_location",
+      "patterns": [
+ 		"how to go to library?",
+		"Where is the library?",
+		"Where's library located?"], 
+
+      "responses": ["We have huge library which is located in Arrupple block or A block and PG library is in PG Block first floor"]
+    
+    },
+    {
+    "tag": "Ending",
+    "patterns": ["Bye", "Okay thank you bye","that's all thanks", "okay bye", "nothing else","that's all for now","will get back to you later"],
+    "responses": ["Thanks for visiting, Have a good day, Bye", "Have a great day ahead, Bye for now"]
+    }
+]
+}

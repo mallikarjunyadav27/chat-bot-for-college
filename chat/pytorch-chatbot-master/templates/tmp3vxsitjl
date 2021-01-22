@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <script>
+        var bot = {{ bot }}
+    </script>
+  </head>
+  <body>
+      <h1>I am here to help you</h1>
+      <form method='post'>
+        Human: <input type='text' name='student'><br>
+        Bot: {{ bot }}<br>
+        <input type="submit" name="action">
+      </form>
+  </body>
+</html>
